@@ -1,0 +1,29 @@
+language: ruby
+rvm:
+  - 2.4.0
+sudo: required
+dist: trusty
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y texlive-lang-cjk texlive-fonts-recommended texlive-latex-extra
+    texlive-fonts-extra latex-xcolor --no-install-recommends
+script:
+  - bundle exec rake all 0<&-
+after_success:
+  - wget https://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz -O - | tar xzvf - kindlegen
+  - "./kindlegen SunPro-techbookfest2.epub -c2 -verbose -o SunPro-techbookfest2.mobi"
+deploy:
+  provider: releases
+  api_key:
+    secure: L2o5XDbHazxK/F3DEqygxfHnzENwESv2z1W9BRFobQ6haV8+X3E/k1eLgVHoQEAr/jPbuihe0eRj/91fGIRW1W5FLRxw1Az6DGqfZub4lLoj4Le9feKjcKdUKXKjpSGwukG7LvdOjfxdk+amW+EdEH+aLmAW7Bl8jUm0+ET6PZa1Zfj+WFR6qCloekxws92AdkFzuzGA8koCYjrSEzKgJImlVUWntRnsaYyLjH8/QtP00ye4zLVRRx9QaDkCIBCPntIyrXOo8H2OQCs0/0tiA9w21NwmWguSALu82OErLhaY4fUsbKdXBs0b5zmEKfZ52df1jWIIQAbNVlPpBJMemyTbi75uXEIVGMsdTgJ2XuX4uXDX1P83d3zSyYc1Xj8Yo3VvMwsARJ53G+Tcte/+ajKEB+9bil+hh6trf7bYCMTKrtnp7qJ/V5jmaSFzfjUEOYn+QOvj+E9O+g+UKDERjcgYYZ6jDMH7i0fES5fMALvmRYHxI0P92orSHnN+y4QBFUQHSQj//bA1f7bC3rHOlPCf3GzBgmnPI0GZ3PjIgu70RWe1Hq/HOhwwDBYSqTv6N5Ls1PfKMmj4mNDnuICOMTrml0aN5gY86SXAlKT5BIf8zw4Akq55qD2kzZ2vTJjpffjNb0Gf6f4Fc88RneE8rfUQSmQWjyaZ3ehpEa3mEqU=
+  file:
+    - SunPro-techbookfest2.pdf
+    - SunPro-techbookfest2.epub
+    - SunPro-techbookfest2.mobi
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: hakatashi/SunPro-techbookfest2
+notifications:
+  slack:
+    secure: Rz1zcpaDk5ZDsG34mXyXYTsohhnG/hK0pZq2uq4WEFNVQcMie0v4dws3PB8VVG6koi4dHraP9b/r/2Ypq6EnKmr/9nCTxw9F8swJRdPDeqXmkkRNP3hISejbKZO/sixoCyKcGR3IOT+c8xAL1vHNYZSSnS80pUQLC7PB+/iYIorbjzxOBsuGoV5/+fJThz7Wl42GOhixVblGc8zgpP9kT6j22NphJrzMkpO3qn5c2P1eSFDMiWF1RZl0xu7qnvaxsZ9eNLmqVlWQHgr7RpcUk9hPI4hbksMytMQ5/JACPMCWDVb3N33gIUaW3Qy9QBvd4NvQOtrsX2sKcfuNW/DgPCBI4pE0y6gyLmPRefCnIBQTiQKlEb5yg7TgqNA9GVieIF0E5HssAcpufl+Wzzp5rHuPVDdObv8emFDWqS/dL4VhbQB2u0Z/I0oYfaPzeys9N2o4HGkIZ+xGfgfrbfLl6RPbuXIEHvo4LyVysnCatx60SWg9yn20X8eYFk+5C7hkZ7hT40AodAscOybM3VH53AiiWylzL4dzEZmMe7YNtcY7FRf6i130HqUmaCGb5bqmnguNSW4BSsLlUIggS75CRtqKpZ+lDVoH5iubeUyR7ICYhDVnkIBubVjMoQgZ8/J+YCypzwaG92t9Nk7j4wou/wr625pwb084YNVcG84MEEU=
