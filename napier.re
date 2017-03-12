@@ -1,4 +1,4 @@
-﻿= 不可能図形を3Dプリントで実現する
+= 不可能図形を3Dプリントで実現する
 
 //raw[|latex|\\chapterauthor{Napier_Sabre_V}]
 
