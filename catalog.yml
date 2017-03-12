@@ -3,6 +3,7 @@ PREDEF:
 
 CHAPS:
   - hakatashi.re
+  - napier.re
 
 POSTDEF:
   - postscript.re
