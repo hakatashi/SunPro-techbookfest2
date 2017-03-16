@@ -15,10 +15,10 @@
 今回のテーマは不可能図形のうちの「ネッカーの立方体」です。
 しかしそれだけでは新規性に大いに疑問がありますね。Thingiverseなどにも不可能図形の先例がいくつもあります。
 
-//image[Cube][Impossible Cube by MicrosoftStore]{
+//image[cube][Impossible Cube by MicrosoftStore]{
 //}
 
-//image[Stairs][Escher Stairs by MicrosoftStore]{
+//image[stairs][Escher Stairs by MicrosoftStore]{
 //}
 
 しかしこれらの作品を見てみると、立体の一部を途切れさせたうえで、
