@@ -1,11 +1,13 @@
 = 参考文献
 
-==@<chapref>{hakatashi}
+@<chapref>{hakatashi}
+
 //bibpaper[gies][文献1]{
 ジョゼフ・ギース, フランシス・ギース 著 栗原泉訳, "大聖堂・製鉄・水車 : 中世ヨーロッパのテクノロジー," 講談社, Dec. 2012.
 //}
 
-==@<chapref>{napier}
+@<chapref>{napier}
+
 //bibpaper[Thingiverse-Cube][pp. ll. ]{
 MicrosoftStore. "Impossible Cube". Dec. 5, 2014. http://www.thingiverse.com/thing:578572, (accessed Jan. 2, 2017).
 //}

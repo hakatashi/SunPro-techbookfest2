@@ -13,7 +13,8 @@
 == 目標の検討
 
 今回のテーマは不可能図形のうちの「ネッカーの立方体」です。
-しかしそれだけでは新規性に大いに疑問がありますね。Thingiverseなどにも不可能図形の先例がいくつもあります。//indepimage[cube-and-stairs][]これらの作品@<bib>{Thingiverse-Cube}@<bib>{Thingiverse-Stairs}を見てみると、立体の一部を途切れさせたうえで、
+しかしそれだけでは新規性に大いに疑問がありますね。Thingiverseなどにも不可能図形の先例がいくつもあります。
+//indepimage[cube-and-stairs][]これらの作品@<bib>{Thingiverse-Cube}@<bib>{Thingiverse-Stairs}を見てみると、立体の一部を途切れさせたうえで、
 途切れたところを背後に溶け込ませる手法によって繋がっているかのように見せていることに気が付きます。
 また、繋がっていても
 //indepimage[CubeOtherSolution][]
