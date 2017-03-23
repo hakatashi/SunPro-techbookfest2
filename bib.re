@@ -22,6 +22,10 @@
 田中和明, "図解入門よくわかる最新「鉄」の基本と仕組み," 秀和システム, Oct. 2009.
 //}
 
+//bibpaper[tomizawa][文献6]{
+富澤清, "動力の歴史," 三樹書房, May. 2002.
+//}
+
 @<chapref>{napier}
 
 //bibpaper[Thingiverse-Cube][pp. ll. ]{
