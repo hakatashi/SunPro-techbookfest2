@@ -33,11 +33,11 @@ MicrosoftStore. "Impossible Cube". Dec. 5, 2014. http://www.thingiverse.com/thin
 //}
 
 //bibpaper[Thingiverse-Stairs][]{
-MicrosoftStore. "Escher Stairs". Dec. 5, 2014. http://www.thingiverse.com/thing:578554, (accssesed Jan.2, 2017).
+MicrosoftStore. "Escher Stairs". Dec. 5, 2014. http://www.thingiverse.com/thing:578554, (accessed Jan.2, 2017).
 //}
 
 //bibpaper[BentSolution][]{
-Nueros. "Escher Cube 3D Solution".  Sep. 7, 2006. https://youtu.be/FAYjN5hxLp4, (Accessed Mar. 12, 2017).
+Nueros. "Escher Cube 3D Solution".  Sep. 7, 2006. https://youtu.be/FAYjN5hxLp4, (accessed Mar. 12, 2017).
 //}
 
 //bibpaper[Sugihara2013][]{
