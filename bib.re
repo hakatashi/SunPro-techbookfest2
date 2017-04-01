@@ -26,6 +26,10 @@
 富澤清, "動力の歴史," 三樹書房, May. 2002.
 //}
 
+//bibpaper[dickinson][]{
+H.W. ディキンソン著 磯田浩訳, "蒸気動力の歴史," 平凡社, Dec. 1994.
+//}
+
 @<chapref>{napier}
 
 //bibpaper[Thingiverse-Cube][]{
