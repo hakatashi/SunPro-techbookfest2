@@ -50,6 +50,10 @@ H.W. ディキンソン著 磯田浩訳, "蒸気動力の歴史," 平凡社, Dec
 電線の歴史 一般社団法人電線総合技術センター @<href>{http://www.jectec.or.jp/densen_kiso/History/history.html}
 //}
 
+//bibpaper[ohkoma][]{
+大駒誠一著, "コンピュータ開発史 ―歴史の誤りを正す「最初の計算機」をたずねる旅―," 共立出版株式会社, Nov. 2005.
+//}
+
 @<chapref>{napier}
 
 //bibpaper[Thingiverse-Cube][]{
