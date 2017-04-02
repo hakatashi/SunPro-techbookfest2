@@ -30,6 +30,14 @@
 H.W. ディキンソン著 磯田浩訳, "蒸気動力の歴史," 平凡社, Dec. 1994.
 //}
 
+//bibpaper[hippolyte-fontaine][]{
+"Hippolyte Fontaine", Britannica Online. @<href>{https://global.britannica.com/biography/Hippolyte-Fontaine}
+//}
+
+//bibpaper[history-of-dynamo][]{
+発電機と電動機の歴史の概要 電気の歴史イラスト館 @<href>{http://www.geocities.jp/hiroyuki0620785/ouyou/grammedynamo.htm}
+//}
+
 @<chapref>{napier}
 
 //bibpaper[Thingiverse-Cube][]{
