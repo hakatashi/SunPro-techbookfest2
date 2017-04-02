@@ -54,6 +54,14 @@ H.W. ディキンソン著 磯田浩訳, "蒸気動力の歴史," 平凡社, Dec
 大駒誠一著, "コンピュータ開発史 ―歴史の誤りを正す「最初の計算機」をたずねる旅―," 共立出版株式会社, Nov. 2005.
 //}
 
+//bibpaper[colossus][]{
+History of Computers and Computing, Birth of the modern computer, Electronic computer, Colossus computer of Max Newman and Tommy Flowers @<href>{http://history-computer.com/ModernComputer/Electronic/Colossus.html}
+//}
+
+//bibpaper[tim-8][]{
+TIM Relay Computer @<href>{http://www.northdownfarm.co.uk/rory/tim/tim-8.htm}
+//}
+
 @<chapref>{napier}
 
 //bibpaper[Thingiverse-Cube][]{
