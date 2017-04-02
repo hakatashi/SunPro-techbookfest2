@@ -38,6 +38,18 @@ H.W. ディキンソン著 磯田浩訳, "蒸気動力の歴史," 平凡社, Dec
 発電機と電動機の歴史の概要 電気の歴史イラスト館 @<href>{http://www.geocities.jp/hiroyuki0620785/ouyou/grammedynamo.htm}
 //}
 
+//bibpaper[history-of-wire1][]{
+電線の歴史 電気の歴史イラスト館 @<href>{http://www.geocities.jp/hiroyuki0620785/zairyou/wire.htm}
+//}
+
+//bibpaper[history-of-wire2][]{
+電線の歴史 電線館.com @<href>{http://densenkan.com/know/densen1.html}
+//}
+
+//bibpaper[history-of-wire3][]{
+電線の歴史 一般社団法人電線総合技術センター @<href>{http://www.jectec.or.jp/densen_kiso/History/history.html}
+//}
+
 @<chapref>{napier}
 
 //bibpaper[Thingiverse-Cube][]{
