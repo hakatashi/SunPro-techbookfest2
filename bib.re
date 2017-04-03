@@ -1,6 +1,6 @@
 = 参考文献
 
-@<chapref>{hakatashi}
+=== @<chapref>{hakatashi}
 
 //bibpaper[collier][]{
 ブルース・コリアー著 須田康子訳, "チャールズ・バベッジ―コンピュータ時代の開拓者," 大月書店, Jun. 2009.
@@ -66,7 +66,7 @@ H.W. ディキンソン著 磯田浩訳, "蒸気動力の歴史," 平凡社, Dec
 History of Computers and Computing, Birth of the modern computer, Electronic computer, Colossus computer of Max Newman and Tommy Flowers @<href>{http://history-computer.com/ModernComputer/Electronic/Colossus.html}
 //}
 
-@<chapref>{napier}
+=== @<chapref>{napier}
 
 //bibpaper[Thingiverse-Cube][]{
 MicrosoftStore. "Impossible Cube". Dec. 5, 2014. http://www.thingiverse.com/thing:578572, (accessed Jan. 2, 2017).
