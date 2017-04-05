@@ -14,20 +14,8 @@
 製鉄技術の歴史的発達構造 @<href>{http://www.isc.meiji.ac.jp/~sano/htst/History_of_Technology/History_of_Iron/}
 //}
 
-//bibpaper[kanamitsu][]{
-金光不二夫, "世界技術史―太古から産業革命まで," 大月書店, Mar. 1986.
-//}
-
-//bibpaper[databook][]{
-鋳物データブック 株式会社岡本 @<href>{http://www.nbk-okamoto.co.jp/DataBook/d000.htm}
-//}
-
 //bibpaper[tanaka][]{
 田中和明, "図解入門よくわかる最新「鉄」の基本と仕組み," 秀和システム, Oct. 2009.
-//}
-
-//bibpaper[tomizawa][]{
-富澤清, "動力の歴史," 三樹書房, May. 2002.
 //}
 
 //bibpaper[dickinson][]{
