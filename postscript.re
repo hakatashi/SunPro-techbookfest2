@@ -36,6 +36,6 @@
 
 本誌を読んだ感想をお寄せください。@<strong>{どんな内容でも泣いて喜びます。}
 
-//indepimage[qrcode-form]
+//indepimage[qrcode-form][][scale=0.5]
 
 @<raw>{|latex|{\LARGE}@<href>{https://sunpro.io/form}@<raw>{|latex|\}}
