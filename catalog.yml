@@ -4,6 +4,7 @@ PREDEF:
 CHAPS:
   - hakatashi.re
   - napier.re
+  - columns.re
   - bib.re
 
 POSTDEF:
