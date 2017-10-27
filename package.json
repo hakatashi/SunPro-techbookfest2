@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "hakatashi": "cd web && pug -O hakatashi.js -p beautiful-hexo/layout/page.jade -P < beautiful-hexo/layout/page.jade > hakatashi.html",
+        "napier": "cd web && pug -O napier.js -p beautiful-hexo/layout/page.jade -P < beautiful-hexo/layout/page.jade > napier.html",
+        "columns": "cd web && pug -O columns.js -p beautiful-hexo/layout/page.jade -P < beautiful-hexo/layout/page.jade > columns.html",
+        "bib": "cd web && pug -O bib.js -p beautiful-hexo/layout/page.jade -P < beautiful-hexo/layout/page.jade > bib.html",
+        "index": "cd web && pug -O index.js -p beautiful-hexo/layout/index.jade -P < beautiful-hexo/layout/index.jade > index.html",
+        "build": "npm run index && npm run hakatashi && npm run napier && npm run columns && npm run bib"
+    },
+    "dependencies": {
+        "pug-cli": "^1.0.0-alpha6"
+    }
+}
