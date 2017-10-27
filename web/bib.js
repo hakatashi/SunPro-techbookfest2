@@ -20,6 +20,7 @@ config.page = {
       link: 'columns.html',
       title: 'おまけ: コラム集',
     },
+	og_image: 'favicon.png',
 };
 
 module.exports = config;

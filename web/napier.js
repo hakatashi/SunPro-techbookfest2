@@ -24,6 +24,7 @@ config.page = {
       link: 'columns.html',
       title: 'おまけ: コラム集',
     },
+	og_image: 'images/napier/Inventor-4.png',
 };
 
 module.exports = config;

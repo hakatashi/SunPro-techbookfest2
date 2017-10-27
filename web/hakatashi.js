@@ -20,6 +20,7 @@ config.page = {
       link: 'napier.html',
       title: '不可能図形を3Dプリントで実現する',
     },
+	og_image: 'favicon.png',
 };
 
 module.exports = config;

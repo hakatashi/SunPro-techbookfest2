@@ -24,6 +24,7 @@ config.page = {
       link: 'bib.html',
       title: '参考文献',
     },
+	og_image: 'favicon.png',
 };
 
 module.exports = config;
