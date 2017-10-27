@@ -14,7 +14,7 @@ config.page = {
     content: fs.readFileSync('../webroot/hakatashi.html'),
     pdf: {
       link: 'hakatashi.pdf',
-      size: 0.5,
+      size: 0.6,
     },
     next: {
       link: 'napier.html',

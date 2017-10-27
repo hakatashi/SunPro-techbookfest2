@@ -14,7 +14,7 @@ config.page = {
     content: fs.readFileSync('../webroot/bib.html'),
     pdf: {
       link: 'bib.pdf',
-      size: 0.6,
+      size: 0.5,
     },
     prev: {
       link: 'columns.html',

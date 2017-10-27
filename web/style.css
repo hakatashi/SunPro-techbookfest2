@@ -152,7 +152,7 @@ span.equation {
     margin: 0 0.3em;
 }
 
-a[href^=bib] {
+p > a[href^=bib] {
 	vertical-align: super;
     font-size: 0.7em;
 }

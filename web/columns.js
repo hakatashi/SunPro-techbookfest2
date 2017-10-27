@@ -14,7 +14,7 @@ config.page = {
     content: fs.readFileSync('../webroot/columns.html'),
     pdf: {
       link: 'columns.pdf',
-      size: 15.1,
+      size: 0.5,
     },
     prev: {
       link: 'napier.html',
