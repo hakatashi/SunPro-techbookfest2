@@ -1,9 +1,9 @@
 = 不可能図形を3Dプリントで実現する
 
-//raw[|latex|\\chapterauthor{Napier\\_Sabre\\_V}]
+//raw[|latex|\\chapterauthor{Napier}]
 
 //lead{
-初めまして、SunProの3D担当ねいぴあさぶれ(@Napier_Sabre_V)です。
+初めまして、SunProの3D担当Napier(@Napier_SunPro)です。
 今までの出展イベントではマスコットD言語くんとGopher、それにくっつける小物を作ることに終始しており、
 こうした記事を書くことはなかったのですが、毎回そういうマスコットを増やしていくにも限界があろうということで、
 もっと一般的な立体を作ってその製作過程を記事にすることとなりました。
