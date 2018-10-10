@@ -1,0 +1,71 @@
+extends partial/base.jade
+
+block header
+    include partial/index-header.jade
+
+block content
+    div(class="container", role="main")
+        .row
+            .col-lg-6.col-lg-offset-3.col-md-8.col-md-offset-2
+                p 2017年4月9日に開催された技術書オンリーイベント「技術書典2」にて、技術系同人SunProが発行した技術系同人誌です。
+                p 現在、半年間のエンバーゴ(公開猶予期間)が過ぎたため、全内容を無料で公開しています!
+            .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+                .downloads.text-center
+                    .pdf
+                        a(href='https://github.com/hakatashi/SunPro-techbookfest2/releases/download/201710271703/SunPro-techbookfest2.pdf')
+                            span.fa-stack.fa-lg
+                                i.fa.fa-circle.fa-stack-2x
+                                i.fa.fa-stack-1x.fa-inverse.fa-file-pdf-o
+                            | PDF (1.8MB)
+                    .epub
+                        a(href='https://github.com/hakatashi/SunPro-techbookfest2/releases/download/201710271703/SunPro-techbookfest2.epub')
+                            span.fa-stack.fa-lg
+                                i.fa.fa-circle.fa-stack-2x
+                                i.fa.fa-stack-1x.fa-inverse.fa-book
+                            | EPUB (2.1MB)
+                    .mobi
+                        a(href='https://github.com/hakatashi/SunPro-techbookfest2/releases/download/201710271703/SunPro-techbookfest2.mobi')
+                            span.fa-stack.fa-lg
+                                i.fa.fa-circle.fa-stack-2x
+                                i.fa.fa-stack-1x.fa-inverse.fa-book
+                            | Kindle (5.11MB)
+                .socials.text-center
+                    include partial/socials.jade
+            .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+                -
+                    const articles = [
+                        {
+                            title: '異世界でゼロからコンピューターを作る方法',
+                            author: 'hakatashi',
+                            name: 'hakatashi',
+                            entry: '<p>突然ですが、異世界にいきなり飛ばされたら、あなたは何をしますか？</p><p>世界を救う？世界を滅ぼす？ヒロインと結ばれる？どれも魅力的ですが、エンジニアないしプログラマーであるあなたにはもっと他にやることがあるはずです。</p><p>それは……そう、コンピューターを作ることです。</p><p>あなたが異世界転生して最初にするべきことは、蒸気機関を作ることなのです。</p>',
+                        },
+                        {
+                            title: '不可能図形を3Dプリントで実現する',
+                            author: 'Napier_Sabre_V',
+                            name: 'napier',
+                            entry: '<p>初めまして、SunProの3D担当ねいぴあさぶれ(@Napier_Sabre_V)です。今までの出展イベントではマスコットD言語くんとGopher、それにくっつける小物を作ることに終始しており、こうした記事を書くことはなかったのですが、毎回そういうマスコットを増やしていくにも限界があろうということで、もっと一般的な立体を作ってその製作過程を記事にすることとなりました。加えて、コミックマーケット89および91で配布していた3Dプリント外注に関するレポートペーパーもこの記事の後ろに掲載してあります。</p>',
+                        },
+                        {
+                            title: 'おまけ: コラム集',
+                            author: 'Napier_Sabre_V / hideo54',
+                            name: 'columns',
+                            entry: '',
+                        },
+                        {
+                            title: '参考文献',
+                            author: '',
+                            name: 'bib',
+                            entry: '',
+                        },
+                    ]
+                .articles
+                    each article in articles
+                        article.post-preview
+                            a(href=article.name+'.html')
+                                h2.post-title.title #{article.title}
+                                h3.post-subtitle.author #{article.author}
+                            .post-entry
+                                != article.entry
+                            p.read-more
+                                a(href=article.name+'.html') 続きを読む
